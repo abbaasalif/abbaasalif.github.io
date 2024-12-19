@@ -38,6 +38,8 @@ gem "duktape"
 # Required for `jekyll serve` in Ruby 3
 gem "webrick"
 
+gem "jekyll-github-metadata"
+
 # Uncomment when using the `--lsi` option for `jekyll build`
 # gem "classifier-reborn"
 
