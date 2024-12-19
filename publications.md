@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Projects
-permalink: /projects/
+title: Publications
+permalink: /publications/
 ---
 
 # My Projects

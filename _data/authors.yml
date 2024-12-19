@@ -2,9 +2,8 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
-
+  name:              Abbaas Nishar
+  email:             abbaasalif6998@gmail.com
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
@@ -27,8 +26,10 @@ author1:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    twitter:         <username>
-    github:          <username>
+    # twitter:         <username>
+    github:          abbaasalif
+    linkedin:        abbaas-alif-mohamed-nishar-a04227122/
+    google scholar:  https://scholar.google.com/citations?user=m322lP4AAAAJ&hl=en
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
