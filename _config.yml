@@ -82,7 +82,8 @@ paginate_path:         /:num/
 #   - jekyll-github-metadata
 
 github:
-  token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
+  token: $JEKYLL_GITHUB_TOKEN
+
 # Theme
 # ---------------------------------------------------------------------------------------
 
