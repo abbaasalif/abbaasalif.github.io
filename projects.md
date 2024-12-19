@@ -3,7 +3,7 @@ layout: default
 title: Projects
 permalink: /projects/
 ---
-{% capture repo_name %}abbaasalif/drl_project{% endcapture %}
+{% assign repo_name = "abbaasalif/drl_project" %}
 {% assign repo = site.github.public_repositories | where: "name", repo_name | first %}
 
 {{ repo.name }}
