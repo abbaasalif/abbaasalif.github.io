@@ -1,0 +1,19 @@
+.publication-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.publication-image {
+    max-width: 100px;
+    margin-right: 20px;
+}
+.publication-content h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.publication-content p {
+    margin: 5px 0;
+}
+h2, h3 {
+    color: #003366;
+}

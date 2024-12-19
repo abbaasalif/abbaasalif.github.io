@@ -35,3 +35,27 @@ Here are some of the projects I have worked on. Each project's description and R
 {% include readmes/freematch-improved.md %}
 
 ---
+
+## radon_data_analysis_darts
+[Visit on GitHub](https://github.com/abbaasalif/radon_analysis_darts/)
+
+### README:
+{% include readmes/radon_analysis.md %}
+
+---
+
+## hAIrmony
+[Visit on GitHub](https://github.com/abbaasalif/hAIrmony/)
+
+### README:
+{% include readmes/hairmony.md %}
+
+---
+
+## Deep Reinforcement Learning with Atari Environment
+[Visit on GitHub](https://github.com/abbaasalif/drl_hw4)
+
+### README:
+{% include readmes/atari.md %}
+
+---

@@ -7,20 +7,20 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I'm Abbaas Alif Mohamed Nishar, a passionate researcher and engineer pursuing a Ph.D. in Computer Science at Georgia State University. 
-    With expertise in AI, machine learning, and systems engineering, my work spans innovative fields like optical wireless communication, neuromorphic cameras, and flicker fusion-based encoding. 
+    I'm Abbaas Alif Mohamed Nishar, a passionate researcher and engineer pursuing a Ph.D. in Computer Science at Georgia State University. I am also the president of IEEE@GSU student branch.
+    With expertise in AI, machine learning, and systems engineering, my work spans innovative fields like optical wireless communication, neuromorphic cameras, environmental sensing and prediction and flicker fusion based meta data encoding in Videos. 
     From optimizing GPU pipelines to advancing screen-to-camera interactions, I thrive on tackling real-world challenges. 
     Explore my projects, publications, and contributions as I continue to bridge the gap between cutting-edge technology and impactful applications.
     
   #   Open `_data/authors.yml` to edit this text.
 
   # This photo will be used in the about section
-  picture:
-    path:            assets/img/logo.jpeg
-    # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            assets/img/logo.jpeg
-      2x:            assets/img/logo.jpeg
+  # picture:
+  #   path:            assets/img/logo.jpeg
+  #   # srcset is optional, but can be used to provide higher res versions for retina displays
+  #   srcset:
+  #     1x:            assets/img/logo.jpeg
+  #     2x:            assets/img/logo.jpeg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide

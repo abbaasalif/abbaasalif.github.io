@@ -1,0 +1,70 @@
+- category: "Conference Papers"
+  title: "Towards Modeling Underground Soil Radon Gas Emanation"
+  authors: "Abbaas Nishar, A Marefat, R Sutradhar, N Kabengi, P Gore, B Meyer, D Dai, S Andrews, X He, and A Ashok"
+  venue: "IEEE SoutheastCon"
+  year: 2024
+  link: "https://ieeexplore.ieee.org/document/10500241"
+  image: "/assets/publications/radon.png"
+
+- category: "Conference Papers"
+  title: "A Framework for Classifying Applications from Raw Network Traffic Traces"
+  authors: "Alireza Marefat, Abbaas Nishar, and Ashwin Ashok"
+  venue: "IEEE SoutheastCon (Best Paper Award)"
+  year: 2024
+  link: "https://ieeexplore.ieee.org/document/10500148/"
+  image: "/assets/publications/network_classification.png"
+
+- category: "Conference Papers"
+  title: "Revelio: A Real-World Screen-Camera Communication System with Visually Imperceptible Data Embedding"
+  authors: "Abbaas Nishar, Shrinivas Kudekar, Bernard Kintzing, and Ashwin Ashok"
+  venue: "IEEE ICASSP"
+  year: 2025
+  link: ""
+  image: "/assets/publications/revelio.png"
+
+- category: "Workshop Papers"
+  title: "DeLiDAR: Decoupling LiDARs for Pervasive Spatial Computing"
+  authors: "Darshana Rathnayake, Razat Sutradhar, Abbaas Nishar, Dulaj Sanjaya Weerakoon, Ashwin Ashok, and Archan Misra"
+  venue: "EWSN mRose Workshop"
+  year: 2024
+  link: "https://www.ewsn.org/file-repository/ewsn2024/mrose24-final4.pdf"
+  image: "/assets/publications/delidar.png"
+
+- category: "Workshop Papers"
+  title: "Data Agnostic Image Annotation"
+  authors: "Abbaas Nishar, Sethuraman T V, MD Rasheed Rahman, Marco Gruteser, Narayan Mandayam, Kristin Dana, Shubham Jain, and Ashwin Ashok"
+  venue: "NeurIPS DCAI Workshop"
+  year: 2021
+  link: "https://slideslive.com/38971914/data-agnostic-image-annotation"
+  image: "/assets/publications/data_annotations.png"
+
+- category: Posters
+  title: "Joint Optical Wireless Communication and sensing using Neuromorphic Cameras"
+  authors: "Abbaas Nishar, Sonipriya Paul, and Ashwin Ashok"
+  venue: "ACM/IEEE IPSN"
+  year: 2024
+  link: "https://ieeexplore.ieee.org/document/10577332"
+  image: "/assets/publications/sensing_comm.png"
+
+- category: Posters
+  title: "Text2Net: Transforming Plain Text into Dynamic, Interactive Network Simulations"
+  authors: "Alireza Marefat, Abbaas Nishar, and Ashwin Ashok"
+  venue: "ACM/IEEE IPSN"
+  year: 2024
+  link: "https://ieeexplore.ieee.org/document/10577301"
+  image: "/assets/publications/text2net.png"
+- category: Posters
+  title: "OpenRadon lab: democratizing soil radon modeling and mapping"
+  authors: "Alireza Marefat, Abbaas Nishar, Nikhil Karve, and Ashwin Ashok"
+  venue: "ACM MobiSys"
+  year: 2022
+  link: "https://dl.acm.org/doi/abs/10.1145/3498361.3538800"
+  image: "/assets/publications/openradon.jpg"
+
+- category: Talks
+  title: "Monitoring Solar Effect with CubeSats on Cosmic Ray Flux Variation at Sea Levels"
+  authors: "Tori Padgett, Abbaas Nishar, Xiaochun He, and Ashwin Ashok"
+  venue: "CubeSat Developers Workshop"
+  year: 2023
+  link: "https://youtu.be/CSoNMhKq2g0?t=17252"
+  image: "/assets/publications/cube.png"

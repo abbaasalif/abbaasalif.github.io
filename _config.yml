@@ -57,6 +57,8 @@ menu:
   #   url:               /docs/
   # - title:             About
   #   url:               /about/
+  - title:             Resume
+    url:               /resume/
   - title:             Projects
     url:               /projects/
   - title:             Publications
