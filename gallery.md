@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Gallery
 permalink: /gallery/
 ---
@@ -7,14 +7,18 @@ permalink: /gallery/
 <h1>Gallery</h1>
 
 <div class="gallery-container">
-  {% assign images = site.static_files | where: "path", "/assets/gallery" %}
-  {% for image in images %}
-  <div class="gallery-item">
-    <a href="{{ image.path }}" data-lightbox="gallery" data-title="Gallery Image">
-      <img src="{{ image.path }}" alt="Gallery Image" loading="lazy">
-    </a>
-  </div>
-  {% endfor %}
+  {% assign images = site.static_files | where_exp: "image", "image.path contains '/assets/gallery/'" %}
+  {% if images.size > 0 %}
+    {% for image in images %}
+    <div class="gallery-item">
+      <a href="{{ image.path }}" data-lightbox="gallery" data-title="Gallery Image">
+        <img src="{{ image.path }}" alt="Gallery Image" loading="lazy">
+      </a>
+    </div>
+    {% endfor %}
+  {% else %}
+    <p>No images available in the gallery. Please add some images to the <code>assets/gallery</code> directory.</p>
+  {% endif %}
 </div>
 
 <!-- Add Lightbox CSS -->
