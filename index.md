@@ -89,27 +89,27 @@ redirect_from:
 </style>
 
 <script>
-  const images = document.querySelectorAll(".carousel-item");
-  const imagesContainer = document.getElementById("carousel-images");
-  let currentIndex = 0;
+    const images = document.querySelectorAll(".carousel-item");
+    const imagesContainer = document.getElementById("carousel-images");
+    let currentIndex = 0;
 
-  function updateCarousel() {
-      const offset = currentIndex * -100;
-      imagesContainer.style.transform = `translateX(${offset}%)`;
-  }
+    function updateCarousel() {
+        const offset = currentIndex * -100;
+        imagesContainer.style.transform = `translateX(${offset}%)`;
+    }
 
-  function moveSlide(direction) {
-      currentIndex = (currentIndex + direction + images.length) % images.length;
-      updateCarousel();
-  }
+    // Attach the moveSlide function to the window object
+    window.moveSlide = function (direction) {
+        currentIndex = (currentIndex + direction + images.length) % images.length;
+        updateCarousel();
+    };
 
-  function autoSwitch() {
-      setInterval(() => moveSlide(1), 3000); // Change slide every 3 seconds
-  }
+    function autoSwitch() {
+        setInterval(() => moveSlide(1), 3000); // Change slide every 3 seconds
+    }
 
-  // Initialize carousel
-  updateCarousel();
-  autoSwitch();
+    // Initialize carousel
+    updateCarousel();
+    autoSwitch();
 </script>
-
 ---
