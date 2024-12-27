@@ -7,19 +7,23 @@ hide_description: true
 cover: true
 redirect_from:
   - 
+head: |
+  <!-- Add Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+footer: |
+  <!-- Add Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 ---
 
 <!-- Welcome Section -->
-
-
 ![Hello World Image](/assets/img/hello.gif)
 
 ---
 
 <!--author-->
 
-</br>
-</br>
+<br />
+<br />
 
 <!-- Carousel Section -->
 <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -46,15 +50,3 @@ redirect_from:
 </div>
 
 ---
-
-<!-- Add Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Add Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
-
-
-
-
