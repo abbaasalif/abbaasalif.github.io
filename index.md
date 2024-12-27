@@ -8,33 +8,34 @@ redirect_from:
   -
 ---
 
-<!-- Typed-out Hello World container -->
-<div id="hello-world"></div>
 
-<!-- Simple typing effect in vanilla JavaScript -->
+<!-- Container for typed-out text -->
+<div id="typed-hello-world" style="font-size: 2rem; font-family: monospace;"></div>
+
 <script>
   const textToType = "Hello, world!";
-  const typingSpeed = 100; // ms delay between each character
+  const typingSpeed = 100; // Adjust as desired (milliseconds)
   let index = 0;
 
   function typeHelloWorld() {
     if (index < textToType.length) {
-      document.getElementById("hello-world").innerHTML += textToType.charAt(index);
+      document.getElementById("typed-hello-world").innerHTML += textToType.charAt(index);
       index++;
       setTimeout(typeHelloWorld, typingSpeed);
     }
   }
 
-  // Start typing as soon as the page loads
-  window.addEventListener('DOMContentLoaded', (event) => {
+  // Start typing effect on page load
+  document.addEventListener("DOMContentLoaded", () => {
     typeHelloWorld();
   });
 </script>
 
+---
+
 
 
 <!--author-->
----
 <br>
 <br>
 
