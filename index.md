@@ -36,7 +36,9 @@ footer: |
       </div>
       {% endfor %}
     {% else %}
-      <p>No images available in the gallery. Please check back later!</p>
+      <div class="carousel-item active">
+        <img src="/assets/img/default.jpg" class="d-block w-100" alt="Default Image">
+      </div>
     {% endif %}
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
