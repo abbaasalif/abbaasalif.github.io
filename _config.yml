@@ -115,6 +115,7 @@ accent_color:          rgb(0,76,130)
 # Defaults to `accent_color`.
 theme_color:           rgb(25,55,71)
 
+
 # IMPORTANT:
 # As of Hydejack 9.2, Google Fonts are turned off by default due to a stronger focus on privacy.
 # Hydejack will use the default font of your visitor's operating system instead.
