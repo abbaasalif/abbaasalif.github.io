@@ -17,7 +17,8 @@ redirect_from:
 ---
 
 <!--author-->
-
+</br>
+</br>
 <!-- Carousel Section -->
 <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
