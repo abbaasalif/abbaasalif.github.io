@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <!-- type out Hello World -->
-![Hello World Image](/assets/img/hello_world.gif)
+![Hello World Image](/assets/img/hello.gif)
 
 ---
 
