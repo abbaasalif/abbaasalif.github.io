@@ -15,6 +15,7 @@ redirect_from:
 
 ![Hello World Image](/assets/img/hello.gif)
 ---
+<!--author-->
 
 <!-- Carousel Section -->
 <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -52,4 +53,4 @@ redirect_from:
 
 
 
-<!--author-->
+
