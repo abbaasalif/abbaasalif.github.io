@@ -4,8 +4,6 @@ title: Gallery
 permalink: /gallery/
 ---
 
-<h1>Gallery</h1>
-
 <div class="gallery-container">
   {% assign images = site.static_files | where_exp: "image", "image.path contains '/assets/gallery/'" %}
   {% if images.size > 0 %}
