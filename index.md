@@ -1,6 +1,5 @@
 ---
 layout: about
-title: Welcome to My Portfolio
 image: /assets/img/logo.jpeg
 description: >
   Explore my projects, gallery, and achievements in business analytics, data science, and more.
@@ -14,7 +13,9 @@ redirect_from:
 
 
 ![Hello World Image](/assets/img/hello.gif)
+
 ---
+
 <!--author-->
 
 <!-- Carousel Section -->
