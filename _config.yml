@@ -25,14 +25,13 @@ title:                 Abbaas Alif M N
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Explore the portfolio of Abbaas Alif Mohamed Nishar, a PhD researcher at GSU specializing in AI systems, VLC, optimization, and deep learning.
 
 # A shorter description for the sidebar.
 tagline:               Research,Develop,Engineer. 
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Abbaas Alif Mohamed Nishar, PhD researcher, AI systems, Visible Light Communications, Optimization, Deep Learning, Portfolio]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -42,8 +41,8 @@ logo:                  /assets/img/logo.jpeg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Abbaas Alif Mohamed Nishar
+  email:               abbaasalif6998@gmail.com
   github:            abbaasalif
   linkedin:          abbaasalif
   # # Used by `jekyll-seo-tag`:
@@ -360,8 +359,8 @@ plugins:
 # Where you proof that you own this site (used by jekyll-seo-tag)
 # google_site_verification: <verification-id>
 # -- or --
-# webmaster_verifications:
-#   google:              <verification-id>
+webmaster_verifications:
+   google:              google-site-verification=JSGPO8FzfoAZOGSkMNV5MtlFuCQAzQfQlPjPaHyMnEg
 #   bing:                <verification-id>
 #   alexa:               <verification-id>
 #   yandex:              <verification-id>
@@ -377,11 +376,12 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                Abbaas Alif Mohamed Nishar
+  links:
+    - https://www.linkedin.com/in/abbaas-alif-mohamed-nishar-a04227122/
+    - https://github.com/abbaasalif
+    - https://scholar.google.com/citations?user=m322lP4AAAAJ&hl=en
 
 
 # Plugin Configs
