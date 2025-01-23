@@ -154,6 +154,10 @@ defaults:
       path:            assets/
     values:
       sitemap:         false
+  - scope:
+      path:            google4ccac06e4a47b791.html
+    values:
+      sitemap:         false
 
   # # Don't include licenses in sitemap (feel free to delete)
   # - scope:
