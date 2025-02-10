@@ -1,7 +1,7 @@
 - category: "Conference Papers"
   title: "Towards Modeling Underground Soil Radon Gas Emanation"
   authors: "Abbaas Nishar, A Marefat, R Sutradhar, N Kabengi, P Gore, B Meyer, D Dai, S Andrews, X He, and A Ashok"
-  venue: "IEEE SoutheastCon"
+  venue: "IEEE SoutheastCon 2024"
   year: 2024
   link: "https://ieeexplore.ieee.org/document/10500241"
   image: "/assets/publications/radon.png"
@@ -9,7 +9,7 @@
 - category: "Conference Papers"
   title: "A Framework for Classifying Applications from Raw Network Traffic Traces"
   authors: "Alireza Marefat, Abbaas Nishar, and Ashwin Ashok"
-  venue: "IEEE SoutheastCon (Best Paper Award)"
+  venue: "IEEE SoutheastCon 2024 (Best Paper Award)"
   year: 2024
   link: "https://ieeexplore.ieee.org/document/10500148/"
   image: "/assets/publications/network_classification.png"
@@ -22,6 +22,14 @@
   link: "https://arxiv.org/abs/2501.02349"
   image: "/assets/publications/revelio.png"
 
+- category: "Conference Papers"
+  title: "Text2Net: Transforming Plain-text To A Dynamic Interactive Network Simulation Environment"
+  authors: "Alireza Marefat, Abbaas Nishar, and Ashwin Ashok"
+  venue: "IEEE SoutheastCon 2025"
+  year: 2025
+  link: ""
+  image: "/assets/publications/text2netpaper.png"
+  
 - category: "Workshop Papers"
   title: "DeLiDAR: Decoupling LiDARs for Pervasive Spatial Computing"
   authors: "Darshana Rathnayake, Razat Sutradhar, Abbaas Nishar, Dulaj Sanjaya Weerakoon, Ashwin Ashok, and Archan Misra"
