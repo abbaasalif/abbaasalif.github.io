@@ -29,6 +29,14 @@
   year: 2025
   link: "/assets/publications/text2net_paper.pdf"
   image: "/assets/publications/text2netpaper.png"
+
+- category: "Conference Papers"
+  title: "Backscatter Optical Wireless Communication using Neuromorphic Cameras"
+  authors: "Abbaas Nishar, and Ashwin Ashok"
+  venue: "EWSN 2025"
+  year: 2025
+  link: ""
+  image: "/assets/publications/text2netpaper.png"
   
 - category: "Workshop Papers"
   title: "DeLiDAR: Decoupling LiDARs for Pervasive Spatial Computing"
