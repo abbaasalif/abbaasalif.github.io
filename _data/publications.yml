@@ -1,7 +1,7 @@
 - category: "Conference Papers"
   title: "Towards Modeling Underground Soil Radon Gas Emanation"
   authors: "Abbaas Nishar, A Marefat, R Sutradhar, N Kabengi, P Gore, B Meyer, D Dai, S Andrews, X He, and A Ashok"
-  venue: "IEEE SoutheastCon 2024"
+  venue: "IEEE SoutheastCon"
   year: 2024
   link: "https://ieeexplore.ieee.org/document/10500241"
   image: "/assets/publications/radon.png"
@@ -9,7 +9,7 @@
 - category: "Conference Papers"
   title: "A Framework for Classifying Applications from Raw Network Traffic Traces"
   authors: "Alireza Marefat, Abbaas Nishar, and Ashwin Ashok"
-  venue: "IEEE SoutheastCon 2024 (Best Paper Award)"
+  venue: "IEEE SoutheastCon (Best Paper Award)"
   year: 2024
   link: "https://ieeexplore.ieee.org/document/10500148/"
   image: "/assets/publications/network_classification.png"
@@ -17,7 +17,7 @@
 - category: "Conference Papers"
   title: "Revelio: A Real-World Screen-Camera Communication System with Visually Imperceptible Data Embedding"
   authors: "Abbaas Nishar, Shrinivas Kudekar, Bernard Kintzing, and Ashwin Ashok"
-  venue: "IEEE ICASSP"
+  venue: "IEEE ICASSP, GSU Graduate Research Conference (3rd place Oral Presentation)"
   year: 2025
   link: "https://arxiv.org/abs/2501.02349"
   image: "/assets/publications/revelio.png"
@@ -25,7 +25,7 @@
 - category: "Conference Papers"
   title: "Text2Net: Transforming Plain-text To A Dynamic Interactive Network Simulation Environment"
   authors: "Alireza Marefat, Abbaas Nishar, and Ashwin Ashok"
-  venue: "IEEE SoutheastCon 2025"
+  venue: "IEEE SoutheastCon"
   year: 2025
   link: "/assets/publications/text2net_paper.pdf"
   image: "/assets/publications/text2netpaper.png"
@@ -33,7 +33,7 @@
 - category: "Conference Papers"
   title: "Backscatter Optical Wireless Communication using Neuromorphic Cameras"
   authors: "Abbaas Nishar, and Ashwin Ashok"
-  venue: "EWSN 2025"
+  venue: "EWSN"
   year: 2025
   link: ""
   image: "/assets/publications/joint_owc.png"
