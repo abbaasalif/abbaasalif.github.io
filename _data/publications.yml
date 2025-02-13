@@ -36,7 +36,7 @@
   venue: "EWSN 2025"
   year: 2025
   link: ""
-  image: "/assets/publications/text2netpaper.png"
+  image: "/assets/publications/joint_owc.png"
   
 - category: "Workshop Papers"
   title: "DeLiDAR: Decoupling LiDARs for Pervasive Spatial Computing"
