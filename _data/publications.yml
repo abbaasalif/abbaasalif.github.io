@@ -15,12 +15,12 @@
   image: "/assets/publications/text2netpaper.png"
 
 - category: "Conference Papers"
-  title: "Backscatter Optical Wireless Communication using Neuromorphic Cameras"
-  authors: "Abbaas Nishar, and Ashwin Ashok"
+  title: "Non Line-of-Sight Optical Wireless Communication using Neuromorphic Cameras"
+  authors: "Abbaas Nishar, Alireza Marefat and Ashwin Ashok"
   venue: "EWSN"
   year: 2025
   link: ""
-  image: "/assets/publications/joint_owc.png"
+  image: "/assets/publications/IMG_0041.png"
 
 - category: "Conference Papers"
   title: "Towards Modeling Underground Soil Radon Gas Emanation"
