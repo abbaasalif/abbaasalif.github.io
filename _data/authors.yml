@@ -2,15 +2,12 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Abbaas Nishar
-  email:             abbaasalif6998@gmail.com
+  name:              Arbbaz Shafeeq
+  email:             arbbazalif.as@gmail.com
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I'm Abbaas Alif Mohamed Nishar, a passionate researcher and engineer pursuing a Ph.D. in Computer Science at Georgia State University. I am also the president of IEEE@GSU student branch.
-    With expertise in AI, machine learning, and systems engineering, my work spans innovative fields like optical wireless communication, neuromorphic cameras, environmental sensing and prediction and flicker fusion based meta data encoding in Videos. 
-    From optimizing GPU pipelines to advancing screen-to-camera interactions, I thrive on tackling real-world challenges. 
-    Explore my projects, publications, and contributions as I continue to bridge the gap between cutting-edge technology and impactful applications.
+   I am Arbbaz Alif Abdul Shafeeq. As a Master’s student in Business Analytics and Artificial Intelligence at UT Dallas, I bring a strong foundation in data-driven decision-making, bolstered by hands-on experience in e-surveillance, predictive modeling, and AI-powered analytics. With a background in Electrical and Electronics Engineering, I’ve successfully bridged technical expertise with real-world applications—whether improving machine learning accuracy through smart camera integration or building an NLP-based injury intelligence dashboard that reduced manual analysis time by 70%. A 3rd-place winner in both the DataWhiz Hackathon and TripAI Case Competition, I’m passionate about using AI to solve business challenges. Currently serving as a Student Ambassador for the Business Analytics Leadership Council, I actively promote student-industry collaboration and professional development.
     
   #   Open `_data/authors.yml` to edit this text.
 
