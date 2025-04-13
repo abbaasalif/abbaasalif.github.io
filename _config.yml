@@ -153,7 +153,7 @@ defaults:
     values:
       sitemap:         false
   - scope:
-      path:            google4ccac06e4a47b791.html
+      path:            googleb434992aa7298ff5.html
     values:
       sitemap:         false
 
@@ -362,7 +362,7 @@ plugins:
 # google_site_verification: <verification-id>
 # -- or --
 webmaster_verifications:
-   google:              google-site-verification=JSGPO8FzfoAZOGSkMNV5MtlFuCQAzQfQlPjPaHyMnEg
+   google:              google-site-verification=FbE1fAGsO2M4HjpG16haZ4jsY-cfKB1cPlROk8kFcJA
 #   bing:                <verification-id>
 #   alexa:               <verification-id>
 #   yandex:              <verification-id>
@@ -379,12 +379,10 @@ webmaster_verifications:
 
 # Used on index and about sites
 social:
-  name:                Abbaas Alif Mohamed Nishar
+  name:                Arbbaz Alif Abdul Shafeeq
   links:
-    - https://www.linkedin.com/in/abbaas-alif-mohamed-nishar-a04227122/
-    - https://github.com/abbaasalif
-    - https://scholar.google.com/citations?user=m322lP4AAAAJ&hl=en
-
+    - https://www.linkedin.com/in/arbbazalif/
+    - https://github.com/ArbbazAlif
 
 # Plugin Configs
 # ---------------------------------------------------------------------------------------
