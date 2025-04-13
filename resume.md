@@ -28,7 +28,7 @@ permalink: /resume/
   <iframe src="/assets/resume/Arbbaz_Resume.pdf" width="100%" height="800px" style="border: none;"></iframe>
 
   <p>
-    If the embedded document is not visible, you can <a href="/assets/resume/Abbaas_Resume.pdf" download>download it here</a>.
+    If the embedded document is not visible, you can <a href="/assets/resume/Arbbaz_Resume.pdf" download>download it here</a>.
   </p>
 </div>
 
