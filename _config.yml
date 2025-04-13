@@ -20,18 +20,18 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Abbaas Alif M N
+title:                 Arbbaz Alif A S
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Explore the portfolio of Abbaas Alif Mohamed Nishar, a PhD researcher at GSU specializing in AI systems, VLC, optimization, and deep learning.
+  Explore the portfolio of Arbbaz Alif Abdul Shafeeq, a Masters in Business Analytics at UT Dallas specializing in Artificial Intelligence. 
 
 # A shorter description for the sidebar.
-tagline:               Research,Develop,Engineer. 
+tagline:               Bridging Analytics and AI to Power Smarter Business. 
 
 # A list of keywords for your blog
-keywords:              [Abbaas Alif Mohamed Nishar, PhD researcher, AI systems, Visible Light Communications, Optimization, Deep Learning, Portfolio]
+keywords:              [Arbbaz Alif Abdul Shafeeq, Masters in Business Analytics, AI, Large Language Models, Deep Learning, AI agents, Portfolio]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -41,10 +41,10 @@ logo:                  /assets/img/logo.jpeg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Abbaas Alif Mohamed Nishar
-  email:               abbaasalif6998@gmail.com
-  github:            abbaasalif
-  linkedin:          abbaasalif
+  name:                Arbbaz Alif Abdul Shafeeq
+  email:               arbbazalif.as@gmail.com
+  github:            ArbbazAlif
+  linkedin:          arbbazalif
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -60,8 +60,6 @@ menu:
     url:               /resume/
   - title:             Projects
     url:               /projects/
-  - title:             Publications
-    url:               /publications/
   - title:             Gallery
     url:               /gallery/
 
@@ -76,7 +74,7 @@ legal:
   #   url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:            © 2024, Abbaas Alif. All rights reserved.
+copyright:            © 2025, Arbbaz Alif. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
