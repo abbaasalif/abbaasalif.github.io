@@ -231,3 +231,245 @@ jupyter notebook
 This project is open-source under the MIT License.
 ---
 
+##  Mind Matrix: A Next-Gen Learning Management System
+
+[Visit on GitHub](https://github.com/ArbbazAlif/Mind-Matrix---Online-Learning-Platform)
+
+### README:
+
+# 🧠 Mind Matrix: A Next-Gen Learning Management System
+
+Mind Matrix is a revolutionary Learning Management System (LMS) designed to deliver personalized, engaging, and gamified educational experiences. It combines robust database architecture, advanced SQL queries, and automation to form a scalable academic platform.
+
+## 📽️ Video Demo
+Watch our project demo here: [YouTube Video](https://youtu.be/0IwmxQ3b-OU)
+
+## 📌 Project Overview
+Mind Matrix addresses the limitations of traditional e-learning platforms by integrating:
+- **AI-driven personalization**
+- **Gamification (badges, points, leaderboards)**
+- **Comprehensive progress tracking**
+- **Automated feedback and reporting mechanisms**
+
+### Vision
+To transform digital education through engagement, personalization, and measurable outcomes.
+
+## 🎯 Objectives
+- Design a scalable and efficient database system
+- Implement stored procedures, triggers, and functions
+- Deliver meaningful analytics via SQL
+- Lay groundwork for future AI integration and UI development
+
+## 🧱 Project Scope
+**In-Scope**:
+- Relational Database Design
+- Complex SQL Queries
+- Stored Procedures, Functions & Triggers
+- Documentation and ER diagrams
+
+**Out-of-Scope**:
+- Front-end development
+- Deployment and hosting
+- AI model implementation
+
+## 🛠️ Key Features
+- **Student, Instructor, and Course Management**
+- **Gamified Learning Experience**
+- **Comprehensive Analytics Dashboard**
+- **Automated Triggers for Attendance & Certification**
+- **Functions for Revenue and Attendance Analysis**
+
+## 🗃️ Schema Highlights
+- 18+ Tables including `Students`, `Courses`, `Enrollment`, `Payments`, `Quizzes`, and `Certificates`
+- Detailed ER diagrams
+- Normalized and scalable structure
+
+## 📊 Sample Queries & Procedures
+- Top-performing students
+- Course-wise revenue
+- Average feedback per instructor
+- Triggers for logging and attendance updates
+- Functions to calculate average scores and revenue
+
+## 🗓️ Timeline
+| Milestone             | Date           |
+|-----------------------|----------------|
+| Project Definition    | Sep 25, 2024   |
+| Schema Design         | Oct 9, 2024    |
+| Query Development     | Oct 23, 2024   |
+| Automation Integration| Oct 30, 2024   |
+| Final Presentation    | Nov 22, 2024   |
+| Report Submission     | Dec 7, 2024    |
+
+## ✅ Conclusion
+This project demonstrates the potential of data-driven education platforms and sets the stage for future AI and UI integrations. The Mind Matrix database serves as a robust foundation for building modern, engaging, and analytical LMS solutions.
+
+## 📬 Contact
+Feel free to reach out for collaboration or questions:
+[LinkedIn - Arbbaz Alif Abdul Shafeeq](https://www.linkedin.com/in/arbbaz-alif-profile/)
+
+---
+
+## Wind Energy Prediction using Multiple Linear Regression
+
+[Visit on GitHub](https://github.com/ArbbazAlif/Wind-Energy-Prediction-Model)
+
+### README:
+
+# 🌬️ Wind Energy Prediction using Multiple Linear Regression
+
+This project demonstrates how to use a **Multiple Linear Regression** model to predict wind energy generation based on historical data from a wind turbine. The goal is to analyze the relationship between wind speed, wind direction, and the power output of a wind turbine.
+
+## 📊 Dataset Overview
+
+The dataset includes 10-minute interval data and the following features:
+
+- `Date/Time`: Timestamp of the observation
+- `LV ActivePower (kW)`: Actual power generated
+- `Wind Speed (m/s)`: Wind speed at the turbine’s hub height
+- `Theoretical_Power_Curve (KWh)`: Manufacturer-specified expected output
+- `Wind Direction (°)`: Wind direction at the hub height
+
+## 🧠 Objective
+
+- Explore wind turbine data
+- Apply feature engineering
+- Train and evaluate a Multiple Linear Regression model
+- Visualize predictions vs actual power output
+
+## 🛠️ Tools and Libraries
+
+- **Python 3**
+- **Pandas** for data manipulation
+- **NumPy** for numerical operations
+- **Matplotlib** for visualizations
+- **Scikit-learn** for model training and evaluation
+
+## 📈 Methodology
+
+1. **Data Preprocessing**: Load and clean the dataset
+2. **Exploratory Data Analysis**: Understand distributions, correlations, and feature importance
+3. **Modeling**: Fit a multiple linear regression model
+4. **Evaluation**: Use metrics such as R² and RMSE to assess performance
+5. **Visualization**: Plot actual vs predicted energy outputs
+
+## 📎 How to Run
+
+```bash
+git clone https://github.com/yourusername/wind-energy-prediction.git
+cd wind-energy-prediction
+pip install -r requirements.txt
+jupyter notebook Wind_Energy_Prediction.ipynb
+```
+
+## 📌 Results
+
+- Achieved high accuracy using simple regression
+- Insights into how wind speed and direction influence turbine performance
+
+## 📂 File Structure
+
+```
+Wind_Energy_Prediction.ipynb   # Main notebook
+README.md                      # Project documentation
+requirements.txt               # Python dependencies
+```
+
+## 📃 License
+
+This project is licensed under the MIT License.
+---
+
+## Loan Default Prediction System
+[Visit on GitHub](https://github.com/ArbbazAlif/Loan-Default-Prediction-System/tree/main)
+
+### README:
+
+# Loan Default Prediction System 🏦💡
+
+This repository contains the implementation of a **Loan Default Prediction System**, developed as a machine learning project to predict whether a loan applicant is likely to default based on historical data. This system is useful for banks and financial institutions to assess credit risk and make informed lending decisions.
+
+---
+
+## 📌 Project Overview
+
+The Loan Default Prediction System is built using a Jupyter Notebook and focuses on preprocessing, feature engineering, and applying various machine learning models to predict loan defaults. It includes:
+
+- Exploratory Data Analysis (EDA)
+- Handling missing data and outliers
+- Feature encoding and scaling
+- Model building and evaluation
+- Confusion matrix, classification reports, and ROC AUC score
+
+---
+
+## 📁 Project Structure
+
+```
+Loan_Default_Prediction_System/
+│
+├── Loan_Default_Prediction_System.ipynb   # Jupyter notebook with the full workflow
+├── README.md                              # Project documentation (you are here)
+```
+
+---
+
+## 🧪 ML Techniques Used
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- Support Vector Machine (SVM)
+
+---
+
+## 📊 Evaluation Metrics
+
+- Accuracy
+- Precision, Recall, F1-Score
+- Confusion Matrix
+- ROC Curve and AUC Score
+
+---
+
+## 🛠 Libraries Used
+
+- `pandas`
+- `numpy`
+- `matplotlib`, `seaborn`
+- `sklearn`
+- `xgboost`
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Loan_Default_Prediction_System.git
+```
+
+2. Open the notebook in Jupyter or VSCode:
+```bash
+jupyter notebook Loan_Default_Prediction_System.ipynb
+```
+
+3. Install the required dependencies (if needed):
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+```
+
+---
+
+## 📄 License
+
+This project is for educational and demonstration purposes only.
+
+---
+
+## 👥 Authors
+
+- **[Arbbaz Alif]**  
+- Feel free to reach out or fork the repository if you’d like to contribute!
+---
