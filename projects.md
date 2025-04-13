@@ -8,7 +8,7 @@ permalink: /projects/
 
 Here are some of the projects I have worked on. Each project's description and README are included below.
 ## Intelligent Chatbot for Aviation Insights
-[Visit on Github](https://github.com/ArbbazAlif/UTA-X-TripAI-Case-Competition/tree/main)
+[Visit on GitHub](https://github.com/ArbbazAlif/UTA-X-TripAI-Case-Competition/tree/main)
 
 ### README:
 # Intelligent Chatbot for Aviation Insights
@@ -82,7 +82,7 @@ This repository is released under the MIT License.
 
 ## AI-Powered Injury Intelligence Dashboard
 
-[Visit on Github](https://github.com/ArbbazAlif/AI-Powered-Injury-Intelligence-Dashboard/tree/main)
+[Visit on GitHub](https://github.com/ArbbazAlif/AI-Powered-Injury-Intelligence-Dashboard/tree/main)
 
 ### README:
 
@@ -151,7 +151,7 @@ For any questions or collaboration inquiries, please reach out to **Arbbaz Alif 
 
 ## Sentiment Analysis of Tweets
 
-[Visit on Github](https://github.com/ArbbazAlif/Sentimental-Analysis-of-Tweets)
+[Visit on GitHub](https://github.com/ArbbazAlif/Sentimental-Analysis-of-Tweets)
 
 ### README:
 
