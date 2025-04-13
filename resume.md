@@ -25,10 +25,10 @@ permalink: /resume/
   <p>Welcome to my Resume page. Here you can view or download my resume.</p>
 
   <h2>View My Resume</h2>
-  <iframe src="/assets/resume/Abbaas_Resume.pdf" width="100%" height="800px" style="border: none;"></iframe>
+  <iframe src="/assets/resume/Arbbaz_Resume.pdf" width="100%" height="800px" style="border: none;"></iframe>
 
   <p>
-    If the embedded document is not visible, you can <a href="/assets/resume/Abbaas_Resume.pdf" download>download it here</a>.
+    If the embedded document is not visible, you can <a href="/assets/resume/Arbbaz_Resume.pdf" download>download it here</a>.
   </p>
 </div>
 

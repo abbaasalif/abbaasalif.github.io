@@ -7,326 +7,469 @@ permalink: /projects/
 # My Projects
 
 Here are some of the projects I have worked on. Each project's description and README are included below.
-# NP‑Complete Solver LLM
+## Intelligent Chatbot for Aviation Insights
+[Visit on GitHub](https://github.com/ArbbazAlif/UTA-X-TripAI-Case-Competition/tree/main)
 
-[Visit on GitHub](https://github.com/abbaasalif/NP-complete-solver-LLM)
+### README:
+# Intelligent Chatbot for Aviation Insights
 
-This project is a Flask‑based web application that leverages GPT‑4 and OR‑Tools to solve NP‑complete problems. The application supports several problems—including the Traveling Salesman Problem (TSP), 0/1 Knapsack Problem, and Graph Coloring Problem—by classifying natural language descriptions provided by the user and then iteratively refining GPT‑4’s solution using feedback from OR‑Tools until convergence.
+This project presents an end-to-end solution for a cloud-based chatbot that can handle document-based and predictive queries. It was developed as part of a student competition focused on aviation data, with an emphasis on innovation, AI, and sustainability.
+
+## ✈️ Project Goals
+
+- Build a document-aware chatbot that can answer user queries like “What’s on page 10?”
+- Use machine learning to predict aviation trends (e.g., flight counts, emissions)
+- Generate dashboards to visualize insights (e.g., fuel consumption, seasonal trends)
+- Deploy the solution on AWS cloud infrastructure
+
+## 🏆 Competition Context
+
+> “Sustainability in aviation isn't just a challenge—it's an opportunity to innovate.”
+
+Over the last week, our team *Innovate Y* represented **Naveen Jindal School of Management, UT Dallas**, at the **9th Annual Business Analytics Symposium** hosted by *The University of Texas at Arlington - College of Business*. Competing against 40+ teams from 7 universities, we secured **3rd place**! 🎉
+
+### The Challenge (Sponsored by TripAI Technologies):
+Accelerate sustainability in the aviation industry using analytics and cloud technologies.
+
+### Our Solution:
+- 🚀 **Interactive Aviation Assistant**: A chatbot powered by **LangChain** and **Retrieval-Augmented Generation (RAG)** that helps optimize fuel usage and reduce CO₂ emissions through context-aware analytics.
+- ☁️ **Cloud Deployment Strategy**: Designed a scalable **AWS architecture** to showcase the potential for real-world productization.
+
+## 📂 Key Files
+
+- `Chatbot_code.py`: Lambda handler for routing and inference
+- `Feature_Selection.ipynb`: Feature engineering and model building
+- `UTA_EDA.ipynb`: Exploratory Data Analysis of aviation data
+- `Student Competition - Problem Statement.docx`: Problem description from the organizers
+
+## 🧠 Technologies Used
+
+- AWS: S3, Lex, Lambda, Kendra, RDS, SageMaker, Glue, QuickSight
+- Python: Pandas, NumPy, Sklearn
+- Jupyter Notebooks: Data analysis, model training
+- Generative AI: LangChain and Retrieval-Augmented Generation (RAG)
+
+## 🚀 Getting Started
+
+1. Clone the repo and open notebooks in Jupyter:
+```bash
+git clone https://github.com/yourusername/aws-aviation-chatbot.git
+cd aws-aviation-chatbot
+jupyter notebook
+```
+
+2. Run `Feature_Selection.ipynb` to train and evaluate the ML model.
+
+3. Deploy `Chatbot_code.py` in AWS Lambda and connect it to Amazon Lex.
+
+## 📊 Outputs
+
+- Trend visualizations (flights across holidays/seasons)
+- Heatmaps of emissions and fuel burn
+- Dashboard via Amazon QuickSight
+- Chatbot handling both predictive and document-based queries
+
+## ⚖️ License
+
+This repository is released under the MIT License.
+
+## 🙌 Acknowledgements
+
+- University Collaboration on Aviation AI Challenge
+- AWS Education Credits Program
+
+---
+
+## AI-Powered Injury Intelligence Dashboard
+
+[Visit on GitHub](https://github.com/ArbbazAlif/AI-Powered-Injury-Intelligence-Dashboard/tree/main)
+
+### README:
+
+# AI-Powered Injury Intelligence Dashboard
+
+*Uses NLP and interactive dashboards to analyze OSHA severe hand injury reports in the manufacturing industry.* This project leverages natural language processing and data visualization to transform raw incident reports into actionable safety insights for manufacturing companies.
+
+## Technologies Used
+
+- **Python** – Base programming language for data processing and analysis.  
+- **Streamlit** – Open-source web framework for building the interactive dashboard UI.  
+- **spaCy** – Industrial-strength NLP library for extracting information from injury report text.  
+- **scikit-learn** – Machine learning library used for modeling and clustering injury data patterns.  
+- **Pandas** – Data manipulation library for cleaning data and aggregating statistics.  
+- **Plotly** – Interactive graphing library for visualizations like charts and heatmaps.
 
 ## Features
 
-- **Natural Language Problem Classification:**  
-  Enter a plain language description of your NP‑complete problem. GPT‑4 classifies it (e.g., TSP, KNAPSACK, GRAPH_COLORING) and directs you to the appropriate form.
+- **NLP-Powered Data Extraction:** Automatically extracts key details from OSHA injury descriptions using spaCy (e.g. injury causes, affected body parts, locations).  
+- **Interactive Dashboard Filters:** Provides intuitive filters (by date, company, injury type, etc.) to drill down into specific subsets of incidents.  
+- **Heatmaps & Visual Analytics:** Visualizes injury occurrences with heatmaps and charts (e.g. time-of-incident heatmaps or geographic maps) to identify trends and hotspots.  
+- **Company Profiling:** Generates profiles for each company in the dataset, highlighting total incidents, common injury types, and other notable patterns.
 
-- **Detailed Input Forms:**  
-  Based on the classification, you can provide structured details (cities and a distance matrix for TSP, items and capacity for Knapsack, or an adjacency matrix and number of colors for Graph Coloring).
+## Use Case
 
-- **Iterative Feedback Loop:**  
-  For each problem, if GPT‑4’s solution does not match the solver’s solution, the system feeds back the solver’s output to GPT‑4 until the responses converge (or a maximum number of iterations is reached).
-
-- **Rich Result Display:**  
-  View both GPT‑4’s solution and the OR‑Tools/CP‑SAT solution along with iteration counts and additional details (such as selected items with weights and values for the knapsack problem).
+This dashboard is designed for EHS (Environmental Health & Safety) teams and safety managers in manufacturing. By analyzing OSHA severe hand injury reports, the tool helps identify patterns and root causes of workplace accidents. Safety teams can discover which processes or machinery lead to frequent injuries, or detect spikes in incidents during certain time periods. These insights enable data-driven decisions to implement targeted prevention strategies and improve workplace safety.
 
 ## Project Structure
 
-The repository has the following structure:
+- **data/** – Contains the OSHA severe injury dataset and any intermediate or processed data files.  
+- **notebooks/** – Jupyter notebooks for data exploration, NLP model development, and analysis.  
+- **dashboard/** – Streamlit app source code for the dashboard (Python scripts, data loading, and UI components).  
+- **requirements.txt** – List of Python dependencies needed to run the project.
 
-```
-NP-complete-solver-LLM/
-├── API_key.env
-├── app.py
-├── knapsack_module.py
-├── graph_coloring_module.py
-├── environment.yml
-└── templates/
-    ├── index.html
-    ├── tsp.html
-    ├── result.html
-    ├── knapsack.html
-    ├── result_knapsack.html
-    ├── graph_coloring.html
-    └── result_graph_coloring.html
-```
+## Getting Started
 
-- **API_key.env:** Contains your OpenAI API key (do not commit this file).
-- **app.py:** Main Flask application file, containing routes for NP‑complete problem classification and specific problem detail forms.
-- **knapsack_module.py:** Contains functions to solve the knapsack problem using GPT‑4 and OR‑Tools with an iterative feedback loop.
-- **graph_coloring_module.py:** Contains functions to solve the graph coloring problem using GPT‑4 and OR‑Tools CP‑SAT with iterative feedback.
-- **environment.yml:** Conda environment file for reproducing the environment.
-- **templates/:** Contains HTML templates for the home page, input forms, and result pages for each problem.
+To run the **AI-Powered Injury Intelligence Dashboard** locally, follow these steps:
 
-## Installation with Conda
-
-To create and activate a Conda environment based on your existing environment:
-
-1. **Clone the repository:**
-
+1. **Clone the repository:**  
    ```bash
-   git clone https://github.com/abbaasalif/NP-complete-solver-LLM.git
-   cd NP-complete-solver-LLM
+   git clone https://github.com/ArbbazAlif/AI-Powered-Injury-Intelligence-Dashboard.git
    ```
-
-2. **Create the Conda environment from the existing environment file:**
-
-   If you have an existing environment and want to export it:
+2. **Install dependencies:**  
+   Navigate into the project directory and install required packages:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Launch the Streamlit app:**  
+   Run the dashboard using Streamlit:  
+   ```bash
+   streamlit run dashboard/app.py
+   ```  
+   This will start the web app and open the interactive dashboard in your browser.  
    
-   ```bash
-   conda env export > environment.yml
-   ```
-   
-   Otherwise, use the provided `environment.yml` to create the environment:
-   
-   ```bash
-   conda env create -f environment.yml
-   ```
+*Prerequisites:* Ensure you have **Python 3.x** and **pip** installed. It’s recommended to use a virtual environment for a clean setup.
 
-3. **Activate the environment:**
+## Achievements
 
-   ```bash
-   conda activate np_solver
-   ```
+- 🥉 **3rd Place** (out of 35 teams) in the **DataWhiz Case Study + Hackathon** hosted by Envision UTD (Safety Excellence Group). This project was recognized for its innovative approach to workplace safety analytics.
 
-## Running the Application
+## Contact
 
-1. **Start the Flask server:**
-
-   ```bash
-   python app.py
-   ```
-
-2. **Open your web browser** and navigate to [http://127.0.0.1:5000/](http://127.0.0.1:5000/). On the home page, you can either enter a natural language description of your NP‑complete problem or click one of the provided links to directly go to a problem form (TSP, Knapsack, or Graph Coloring).
-
-## Sample Scenarios
-
-### 1. Traveling Salesman Problem (TSP) – 20 Cities
-
-**Natural Language Description:**
-
-```
-I have a complex traveling salesman problem involving 20 cities spread over a large region. I have a detailed distance matrix that specifies the travel cost between every pair of cities. I need to find the shortest route that visits each city exactly once and returns to the starting city.
-```
-
-**Detailed Input for TSP Form:**
-
-- **Cities:**
-
-  ```
-  City1, City2, City3, ..., City20
-  ```
-
-- **Distance Matrix:**
-
-  ```
-  0, 56, 47, 78, 90, 33, 68, 59, 72, 88, 45, 60, 91, 37, 82, 49, 77, 52, 83, 65
-  56, 0, 65, 49, 75, 60, 80, 45, 68, 70, 57, 63, 76, 52, 69, 85, 54, 66, 74, 61
-  ...
-  ```
-  *(Complete with 20 rows)*
-
-### 2. Knapsack Problem – 10 Items
-
-**Natural Language Description:**
-
-```
-I need to solve a knapsack problem with 10 items, where each item has a weight and a value. My goal is to maximize the total value without exceeding the knapsack's capacity of 50. The items are provided in a detailed list.
-```
-
-**Detailed Input for Knapsack Form:**
-
-- **Items (format "weight:value; ..."):**
-
-  ```
-  10:60; 20:100; 30:120; 25:90; 15:50; 5:30; 12:40; 18:70; 22:80; 8:25
-  ```
-
-- **Capacity:**
-
-  ```
-  50
-  ```
-
-### 3. Graph Coloring Problem – 6 Vertices
-
-**Natural Language Description:**
-
-```
-I have a scheduling problem that can be modeled as a graph coloring problem. The graph is represented by an adjacency matrix for 6 vertices, and I need to assign a color (represented as a numeric index) to each vertex such that no two adjacent vertices have the same color. I want to use exactly 3 colors.
-```
-
-**Detailed Input for Graph Coloring Form:**
-
-- **Adjacency Matrix:**
-
-  ```
-  0, 1, 1, 0, 0, 1
-  1, 0, 1, 1, 0, 0
-  1, 1, 0, 1, 1, 0
-  0, 1, 1, 0, 1, 1
-  0, 0, 1, 1, 0, 1
-  1, 0, 0, 1, 1, 0
-  ```
-
-- **Number of Colors:**
-
-  ```
-  3
-  ```
-## Sample Scenarios
-
-### 1. Traveling Salesman Problem (TSP)
-
-#### Natural Language Description
-
-```
-I have a challenging traveling salesman problem involving 20 cities spread over a large region. The distances between these cities vary significantly, and I have compiled a detailed distance matrix. I need to determine the shortest possible route that visits each city exactly once and returns to the starting city. Please help me solve this problem.
-```
-
-#### Structured Input
-
-- **Cities (comma‑separated):**
-
-  ```
-  City1, City2, City3, City4, City5, City6, City7, City8, City9, City10, City11, City12, City13, City14, City15, City16, City17, City18, City19, City20
-  ```
-
-- **Distance Matrix (one row per line, comma‑separated):**
-
-  ```
-  0, 56, 47, 78, 90, 33, 68, 59, 72, 88, 45, 60, 91, 37, 82, 49, 77, 52, 83, 65
-  56, 0, 65, 49, 75, 60, 80, 45, 68, 70, 57, 63, 76, 52, 69, 85, 54, 66, 74, 61
-  47, 65, 0, 68, 54, 77, 59, 82, 63, 88, 45, 71, 90, 56, 67, 73, 50, 64, 80, 59
-  78, 49, 68, 0, 62, 74, 59, 70, 81, 55, 68, 80, 72, 63, 58, 66, 77, 52, 69, 60
-  90, 75, 54, 62, 0, 68, 73, 66, 80, 72, 64, 79, 85, 60, 57, 69, 71, 63, 82, 55
-  33, 60, 77, 74, 68, 0, 55, 68, 73, 62, 59, 65, 70, 58, 62, 80, 53, 64, 71, 60
-  68, 80, 59, 59, 73, 55, 0, 66, 70, 54, 62, 74, 80, 57, 63, 68, 69, 60, 75, 55
-  59, 45, 82, 70, 66, 68, 66, 0, 64, 72, 53, 59, 77, 56, 68, 63, 58, 71, 67, 60
-  72, 68, 63, 81, 80, 73, 70, 64, 0, 65, 60, 68, 74, 59, 70, 75, 62, 66, 72, 58
-  88, 70, 88, 55, 72, 62, 54, 72, 65, 0, 70, 60, 66, 55, 68, 57, 73, 59, 80, 61
-  45, 57, 45, 68, 64, 59, 62, 53, 60, 70, 0, 64, 78, 55, 61, 66, 70, 54, 65, 59
-  60, 63, 71, 80, 79, 65, 74, 59, 68, 60, 64, 0, 75, 57, 66, 69, 62, 70, 63, 58
-  91, 76, 90, 72, 85, 70, 80, 77, 74, 66, 78, 75, 0, 62, 68, 64, 79, 60, 71, 65
-  37, 52, 56, 63, 60, 58, 57, 56, 59, 55, 55, 57, 62, 0, 61, 68, 54, 65, 60, 52
-  82, 69, 67, 58, 57, 62, 63, 68, 70, 68, 61, 66, 68, 61, 0, 59, 63, 60, 75, 58
-  49, 85, 73, 66, 69, 80, 68, 63, 75, 57, 66, 69, 64, 68, 59, 0, 70, 54, 65, 60
-  77, 54, 50, 77, 71, 53, 69, 58, 62, 73, 70, 62, 79, 54, 63, 70, 0, 66, 60, 57
-  52, 66, 64, 52, 63, 64, 60, 71, 66, 59, 54, 70, 60, 65, 60, 54, 66, 0, 68, 59
-  83, 74, 80, 69, 82, 71, 75, 67, 72, 80, 65, 63, 71, 60, 75, 65, 60, 68, 0, 62
-  65, 61, 59, 60, 55, 60, 55, 60, 58, 61, 59, 58, 65, 52, 58, 60, 57, 59, 62, 0
-  ```
+For any questions or collaboration inquiries, please reach out to **Arbbaz Alif Abdul Shafeeq** on [LinkedIn](https://www.linkedin.com/in/arbbaz-alif-profile/).
 
 ---
 
-### 2. Knapsack Problem
+## Sentiment Analysis of Tweets
 
-#### Natural Language Description
-
-```
-I need to solve a knapsack problem where I have a list of 10 items, each with a specific weight and value. My goal is to select a subset of these items that maximizes the total value without exceeding a knapsack capacity of 50. Please help me determine the optimal selection.
-```
-
-#### Detailed Input
-
-- **Items (format "weight:value; weight:value; ..."):**
-
-  ```
-  10:60; 20:100; 30:120; 25:90; 15:50; 5:30; 12:40; 18:70; 22:80; 8:25
-  ```
-
-- **Capacity:**
-
-  ```
-  50
-  ```
-
----
-
-### 3. Graph Coloring Problem
-
-#### Natural Language Description
-
-```
-I have a scheduling problem that can be modeled as a graph coloring problem. Each vertex in the graph represents a class, and an edge between two vertices indicates that the classes conflict (cannot be scheduled at the same time). I need to assign colors (numeric indices) to each class so that no two adjacent vertices share the same color, using exactly 3 colors. Please help me find a valid coloring solution.
-```
-
-#### Detailed Input
-
-- **Adjacency Matrix (one row per line, comma-separated):**
-
-  ```
-  0, 1, 0, 1, 0, 1
-  1, 0, 1, 1, 0, 0
-  0, 1, 0, 1, 1, 0
-  1, 1, 1, 0, 1, 1
-  0, 0, 1, 1, 0, 1
-  1, 0, 0, 1, 1, 0
-  ```
-
-- **Number of Colors:**
-
-  ```
-  3
-  ```
-
----
-
-### How to Use These Scenarios
-
-- **For TSP:**  
-  Paste the natural language description into the home page’s description field. Once the problem is classified as TSP, use the detailed input (cities and the 20×20 distance matrix) in the TSP form to solve the problem.
-
-- **For Knapsack:**  
-  Use the provided natural language description on the home page to have the system classify it as a knapsack problem. Then, in the knapsack form, paste the items string and enter the capacity (50).
-
-- **For Graph Coloring:**  
-  Enter the natural language description to have the system classify it as a graph coloring problem. In the graph coloring form, paste the provided adjacency matrix and enter the number of colors (3).
----
-
-## Deep Reinforcement Learning Project
-<!-- The project presents a Deep Q-learning-based agent to optimize HVAC (Heating, Ventilation, and Air Conditioning) systems. The environment is modeled using fundamental heat transfer equations, enabling the agent to outperform traditional thermostat-based controls. -->
-
-[Visit on GitHub](https://github.com/abbaasalif/drl_project)
+[Visit on GitHub](https://github.com/ArbbazAlif/Sentimental-Analysis-of-Tweets)
 
 ### README:
-{% include readmes/drl_project.md %}
+
+# Sentiment Analysis of Tweets
+
+This project performs sentiment analysis on a dataset of tweets using Natural Language Processing (NLP) techniques. The notebook includes data preprocessing, visualization, feature extraction using TF-IDF, and classification using machine learning algorithms such as Logistic Regression and Naive Bayes.
+
+## 🧪 Features
+
+- Importing and preprocessing Twitter data  
+- Data visualization using word clouds and bar plots  
+- Tokenization and TF-IDF vectorization  
+- Model training and evaluation (Logistic Regression & Naive Bayes)  
+- Sentiment prediction on new tweets  
+
+## 📁 Project Structure
+
+```
+Sentimental_Analysis_of_Tweets/
+│
+├── Sentimental_Analysis_of_Tweets.ipynb  # Main Jupyter notebook
+├── README.md                             # Project overview and instructions
+└── requirements.txt                      # Dependencies (create if needed)
+```
+
+## 🛠️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Sentimental_Analysis_of_Tweets.git
+cd Sentimental_Analysis_of_Tweets
+```
+
+2. Create a virtual environment and install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## 🧾 Dependencies
+
+You can generate a `requirements.txt` using:
+```bash
+pip freeze > requirements.txt
+```
+
+Main libraries used include:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- sklearn
+- nltk
+- wordcloud
+
+## 🚀 Usage
+
+1. Launch the Jupyter Notebook:
+```bash
+jupyter notebook
+```
+
+2. Open `Sentimental_Analysis_of_Tweets.ipynb` and run the cells step-by-step.
+
+## 📊 Results
+
+- The notebook demonstrates good performance with accuracy and confusion matrix metrics.
+- Visualizations show sentiment distributions and most frequent words for each sentiment.
+
+## 📌 To-Do
+
+- Add support for streaming Twitter data using Tweepy
+- Extend to multi-class sentiment classification
+- Export model for deployment
+
+## 📝 License
+
+This project is open-source under the MIT License.
+---
+
+##  Mind Matrix: A Next-Gen Learning Management System
+
+[Visit on GitHub](https://github.com/ArbbazAlif/Mind-Matrix---Online-Learning-Platform)
+
+### README:
+
+# 🧠 Mind Matrix: A Next-Gen Learning Management System
+
+Mind Matrix is a revolutionary Learning Management System (LMS) designed to deliver personalized, engaging, and gamified educational experiences. It combines robust database architecture, advanced SQL queries, and automation to form a scalable academic platform.
+
+## 📽️ Video Demo
+Watch our project demo here: [YouTube Video](https://youtu.be/0IwmxQ3b-OU)
+
+## 📌 Project Overview
+Mind Matrix addresses the limitations of traditional e-learning platforms by integrating:
+- **AI-driven personalization**
+- **Gamification (badges, points, leaderboards)**
+- **Comprehensive progress tracking**
+- **Automated feedback and reporting mechanisms**
+
+### Vision
+To transform digital education through engagement, personalization, and measurable outcomes.
+
+## 🎯 Objectives
+- Design a scalable and efficient database system
+- Implement stored procedures, triggers, and functions
+- Deliver meaningful analytics via SQL
+- Lay groundwork for future AI integration and UI development
+
+## 🧱 Project Scope
+**In-Scope**:
+- Relational Database Design
+- Complex SQL Queries
+- Stored Procedures, Functions & Triggers
+- Documentation and ER diagrams
+
+**Out-of-Scope**:
+- Front-end development
+- Deployment and hosting
+- AI model implementation
+
+## 🛠️ Key Features
+- **Student, Instructor, and Course Management**
+- **Gamified Learning Experience**
+- **Comprehensive Analytics Dashboard**
+- **Automated Triggers for Attendance & Certification**
+- **Functions for Revenue and Attendance Analysis**
+
+## 🗃️ Schema Highlights
+- 18+ Tables including `Students`, `Courses`, `Enrollment`, `Payments`, `Quizzes`, and `Certificates`
+- Detailed ER diagrams
+- Normalized and scalable structure
+
+## 📊 Sample Queries & Procedures
+- Top-performing students
+- Course-wise revenue
+- Average feedback per instructor
+- Triggers for logging and attendance updates
+- Functions to calculate average scores and revenue
+
+## 🗓️ Timeline
+| Milestone             | Date           |
+|-----------------------|----------------|
+| Project Definition    | Sep 25, 2024   |
+| Schema Design         | Oct 9, 2024    |
+| Query Development     | Oct 23, 2024   |
+| Automation Integration| Oct 30, 2024   |
+| Final Presentation    | Nov 22, 2024   |
+| Report Submission     | Dec 7, 2024    |
+
+## ✅ Conclusion
+This project demonstrates the potential of data-driven education platforms and sets the stage for future AI and UI integrations. The Mind Matrix database serves as a robust foundation for building modern, engaging, and analytical LMS solutions.
+
+## 📬 Contact
+Feel free to reach out for collaboration or questions:
+[LinkedIn - Arbbaz Alif Abdul Shafeeq](https://www.linkedin.com/in/arbbaz-alif-profile/)
 
 ---
 
-## Video 2 Event Simulator
-[Visit on GitHub](https://github.com/abbaasalif/video2eventsimulator)
+## Wind Energy Prediction using Multiple Linear Regression
+
+[Visit on GitHub](https://github.com/ArbbazAlif/Wind-Energy-Prediction-Model)
 
 ### README:
-{% include readmes/vid2event.md %}
+
+# 🌬️ Wind Energy Prediction using Multiple Linear Regression
+
+This project demonstrates how to use a **Multiple Linear Regression** model to predict wind energy generation based on historical data from a wind turbine. The goal is to analyze the relationship between wind speed, wind direction, and the power output of a wind turbine.
+
+## 📊 Dataset Overview
+
+The dataset includes 10-minute interval data and the following features:
+
+- `Date/Time`: Timestamp of the observation
+- `LV ActivePower (kW)`: Actual power generated
+- `Wind Speed (m/s)`: Wind speed at the turbine’s hub height
+- `Theoretical_Power_Curve (KWh)`: Manufacturer-specified expected output
+- `Wind Direction (°)`: Wind direction at the hub height
+
+## 🧠 Objective
+
+- Explore wind turbine data
+- Apply feature engineering
+- Train and evaluate a Multiple Linear Regression model
+- Visualize predictions vs actual power output
+
+## 🛠️ Tools and Libraries
+
+- **Python 3**
+- **Pandas** for data manipulation
+- **NumPy** for numerical operations
+- **Matplotlib** for visualizations
+- **Scikit-learn** for model training and evaluation
+
+## 📈 Methodology
+
+1. **Data Preprocessing**: Load and clean the dataset
+2. **Exploratory Data Analysis**: Understand distributions, correlations, and feature importance
+3. **Modeling**: Fit a multiple linear regression model
+4. **Evaluation**: Use metrics such as R² and RMSE to assess performance
+5. **Visualization**: Plot actual vs predicted energy outputs
+
+## 📎 How to Run
+
+```bash
+git clone https://github.com/yourusername/wind-energy-prediction.git
+cd wind-energy-prediction
+pip install -r requirements.txt
+jupyter notebook Wind_Energy_Prediction.ipynb
+```
+
+## 📌 Results
+
+- Achieved high accuracy using simple regression
+- Insights into how wind speed and direction influence turbine performance
+
+## 📂 File Structure
+
+```
+Wind_Energy_Prediction.ipynb   # Main notebook
+README.md                      # Project documentation
+requirements.txt               # Python dependencies
+```
+
+## 📃 License
+
+This project is licensed under the MIT License.
+---
+
+## Loan Default Prediction System
+[Visit on GitHub](https://github.com/ArbbazAlif/Loan-Default-Prediction-System/tree/main)
+
+### README:
+
+# Loan Default Prediction System 🏦💡
+
+This repository contains the implementation of a **Loan Default Prediction System**, developed as a machine learning project to predict whether a loan applicant is likely to default based on historical data. This system is useful for banks and financial institutions to assess credit risk and make informed lending decisions.
 
 ---
 
-## freematch-improved
-[Visit on GitHub](https://github.com/abbaasalif/freematch-improved/)
+## 📌 Project Overview
 
-### README:
-{% include readmes/freematch-improved.md %}
+The Loan Default Prediction System is built using a Jupyter Notebook and focuses on preprocessing, feature engineering, and applying various machine learning models to predict loan defaults. It includes:
 
----
-
-## radon_data_analysis_darts
-[Visit on GitHub](https://github.com/abbaasalif/radon_analysis_darts/)
-
-### README:
-{% include readmes/radon_analysis.md %}
+- Exploratory Data Analysis (EDA)
+- Handling missing data and outliers
+- Feature encoding and scaling
+- Model building and evaluation
+- Confusion matrix, classification reports, and ROC AUC score
 
 ---
 
-## hAIrmony
-[Visit on GitHub](https://github.com/abbaasalif/hAIrmony/)
+## 📁 Project Structure
 
-### README:
-{% include readmes/hairmony.md %}
+```
+Loan_Default_Prediction_System/
+│
+├── Loan_Default_Prediction_System.ipynb   # Jupyter notebook with the full workflow
+├── README.md                              # Project documentation (you are here)
+```
 
 ---
 
-## Deep Reinforcement Learning with Atari Environment
-[Visit on GitHub](https://github.com/abbaasalif/drl_hw4)
+## 🧪 ML Techniques Used
 
-### README:
-{% include readmes/atari.md %}
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- Support Vector Machine (SVM)
 
+---
+
+## 📊 Evaluation Metrics
+
+- Accuracy
+- Precision, Recall, F1-Score
+- Confusion Matrix
+- ROC Curve and AUC Score
+
+---
+
+## 🛠 Libraries Used
+
+- `pandas`
+- `numpy`
+- `matplotlib`, `seaborn`
+- `sklearn`
+- `xgboost`
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Loan_Default_Prediction_System.git
+```
+
+2. Open the notebook in Jupyter or VSCode:
+```bash
+jupyter notebook Loan_Default_Prediction_System.ipynb
+```
+
+3. Install the required dependencies (if needed):
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+```
+
+---
+
+## 📄 License
+
+This project is for educational and demonstration purposes only.
+
+---
+
+## 👥 Authors
+
+- **[Arbbaz Alif]**  
+- Feel free to reach out or fork the repository if you’d like to contribute!
 ---
