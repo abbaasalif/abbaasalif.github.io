@@ -1,4 +1,12 @@
 - category: "Conference Papers"
+  title: "ART: Adaptive Reasoning Trees for Explainable Claim Verification"
+  authors: "Sahil Wadhwa, Himanshu Kumar, Guanqun Yang, Abbaas Alif Mohamed Nishar, Pranab Mohanty, Swapnil Shinde, Yue Wu"
+  venue: "The 19th Conference of the European Chapter of the Association for Computational Linguistics Rabat, Morocco"
+  year: 2026
+  link: "https://arxiv.org/pdf/2601.05455"
+  image: "/assets/publications/ART.jpeg"
+
+- category: "Conference Papers"
   title: "Revelio: A Real-World Screen-Camera Communication System with Visually Imperceptible Data Embedding"
   authors: "Abbaas Nishar, Shrinivas Kudekar, Bernard Kintzing, and Ashwin Ashok"
   venue: "IEEE ICASSP, GSU Graduate Research Conference (3rd place Oral Presentation)"

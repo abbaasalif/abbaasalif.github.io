@@ -7,10 +7,10 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I'm Abbaas Alif Mohamed Nishar, a passionate researcher and engineer pursuing a Ph.D. in Computer Science at Georgia State University. I am also the president of IEEE@GSU student branch.
-    With expertise in AI, machine learning, and systems engineering, my work spans innovative fields like optical wireless communication, neuromorphic cameras, environmental sensing and prediction and flicker fusion based meta data encoding in Videos. 
-    From optimizing GPU pipelines to advancing screen-to-camera interactions, I thrive on tackling real-world challenges. 
-    Explore my projects, publications, and contributions as I continue to bridge the gap between cutting-edge technology and impactful applications.
+   I'm Abbaas Alif Mohamed Nishar, an Applied Scientist at Capital One with a Ph.D. in Computer Science from Georgia State University, where I also served as president of the IEEE@GSU student branch.
+At Capital One, I specialize in LLM-powered personalization, intent classification for conversational AI, and agentic workflow design, building intelligent systems that enhance customer experiences through advanced natural language understanding. My work spans the full ML lifecycle, from developing RAG-enhanced intent classifiers to optimizing multi-modal video-language models for real-world applications.
+My research expertise bridges AI systems engineering and cutting-edge ML applications, including multi-modal vision-language models, neuromorphic camera systems, optical wireless communication, and flicker fusion-based metadata encoding. From optimizing GPU pipelines and developing diagnostic benchmarks for video-language models to advancing screen-to-camera interactions, I thrive on solving complex technical challenges that demand both theoretical rigor and practical innovation.
+Explore my projects, publications, and contributions as I continue bridging the gap between academic research and impactful industry applications.
     
   #   Open `_data/authors.yml` to edit this text.
 
