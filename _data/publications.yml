@@ -1,4 +1,13 @@
 - category: "Conference Papers"
+  title: "Stress Tests REVEAL Fragile Temporal and Visual Grounding
+in Video-Language Models"
+  authors: "Sethuraman T V, Savya Khosla, Aditi Tiwari, Vidya Ganesh, Rakshana Jayaprakash, Aditya Jain, Vignesh Srinivasakumar, Onkar Kishor Susladkar, Srinidhi Sunkara, Aditya Shanmugham, Rakesh Vaideeswaran, Abbaas Nishar, Simon Jenni, Derek Hoiem"
+  venue: "arXiV 2026, CVPR 2026 (Under Review)"
+  year: 2026
+  link: "https://arxiv.org/pdf/2602.11244"
+  image: "/assets/publications/stress.png"
+
+- category: "Conference Papers"
   title: "ART: Adaptive Reasoning Trees for Explainable Claim Verification"
   authors: "Sahil Wadhwa, Himanshu Kumar, Guanqun Yang, Abbaas Nishar, Pranab Mohanty, Swapnil Shinde, Yue Wu"
   venue: "The 19th Conference of the European Chapter of the Association for Computational Linguistics Rabat, Morocco"
