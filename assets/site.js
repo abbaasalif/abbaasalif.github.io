@@ -30,7 +30,9 @@ document.querySelectorAll("[data-filter]").forEach(button => {
     document.querySelectorAll("[data-filter]").forEach(item => item.classList.remove("active"));
     button.classList.add("active");
     document.querySelectorAll(".pub").forEach(publication => {
-      publication.hidden = button.dataset.filter !== "All" && publication.dataset.type !== button.dataset.filter;
+      const shouldHide = button.dataset.filter !== "All" && publication.dataset.type !== button.dataset.filter;
+      publication.hidden = shouldHide;
+      publication.style.display = shouldHide ? "none" : "";
     });
   });
 });
