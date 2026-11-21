@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="206" viewBox="0 0 480 206">
+<rect width="480" height="206" rx="8" fill="#101a2b"/>
+<g fill="#1a2b43" stroke="#466387"><rect x="12" y="44" width="102" height="113" rx="7"/><rect x="130" y="44" width="102" height="113" rx="7"/><rect x="248" y="44" width="102" height="113" rx="7"/><rect x="366" y="44" width="102" height="113" rx="7"/></g>
+<g fill="none" stroke="#79a9ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="44" y="64" width="38" height="33" rx="4"/><path d="m59 73 12 7-12 7z"/><rect x="160" y="64" width="42" height="29" rx="3"/><path d="M181 93v8m-10 0h20"/><rect x="286" y="60" width="26" height="40" rx="5"/><circle cx="299" cy="78" r="7"/><rect x="399" y="65" width="35" height="33" rx="4"/><path d="m406 81 6 6 13-13M116 89h10l-4-4m4 4-4 4m112-4h10l-4-4m4 4-4 4m112-4h10l-4-4m4 4-4 4"/></g>
+<g fill="#d6e3f4" text-anchor="middle" font-size="14" font-family="sans-serif"><text x="63" y="126">Video</text><text x="181" y="126">Screen</text><text x="299" y="119">Phone<tspan x="299" dy="17">camera</tspan></text><text x="417" y="119">Decoded<tspan x="417" dy="17">message</tspan></text></g>
+</svg>

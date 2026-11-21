@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="206" viewBox="0 0 480 206">
+<defs><g id="frame"><rect width="88" height="61" rx="5" fill="#1a2b43" stroke="#466387"/><path d="M9 51h70" stroke="#93a9c8"/></g></defs><rect width="480" height="206" rx="8" fill="#101a2b"/>
+<g fill="#c6d7ee" font-size="15" font-family="sans-serif"><text x="14" y="54">Forward</text><text x="14" y="152">Reversed</text></g>
+<g><use href="#frame" x="100" y="22"/><use href="#frame" x="221" y="22"/><use href="#frame" x="342" y="22"/><use href="#frame" x="100" y="120"/><use href="#frame" x="221" y="120"/><use href="#frame" x="342" y="120"/></g>
+<g fill="#79a9ff"><circle cx="144" cy="34" r="7"/><circle cx="265" cy="49" r="7"/><circle cx="386" cy="65" r="7"/><circle cx="144" cy="163" r="7"/><circle cx="265" cy="147" r="7"/><circle cx="386" cy="132" r="7"/></g>
+<path d="M196 53h15l-5-5m5 5-5 5m111-5h15l-5-5m5 5-5 5M196 151h15l-5-5m5 5-5 5m111-5h15l-5-5m5 5-5 5" fill="none" stroke="#79a9ff" stroke-width="2"/>
+</svg>
