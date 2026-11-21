@@ -15,7 +15,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://abbaasalif.github.io/">
   <link rel="icon" href="/assets/favicon.svg">
-  <link rel="stylesheet" href="/assets/site.css?v=9">
+  <link rel="stylesheet" href="/assets/site.css?v=10">
   <script defer src="/assets/site.js?v=6"></script>
 </head>
 <body>
@@ -24,7 +24,7 @@
     <a class="wordmark" href="#top"><span aria-hidden="true">AA</span><b>Abbaas Alif</b></a>
     <button class="menu" type="button" aria-expanded="false" aria-controls="navlinks">Menu</button>
     <div class="navlinks" id="navlinks">
-      <a href="#projects">Work</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#resumes">Résumés &amp; CV</a>
+      <a href="#experience">Experience</a><a href="#projects">Work</a><a href="#publications">Publications</a><a href="#resumes">Résumés &amp; CV</a>
       <button class="theme" type="button">Light mode</button>
     </div>
   </nav>
@@ -33,8 +33,27 @@
       <div class="hero-grid" aria-hidden="true"></div>
       <div class="eyebrow"><i aria-hidden="true"></i> Abbaas Alif Mohamed Nishar · Applied Scientist at Capital One</div>
       <h1 id="intro-title">I build conversational AI and study where it goes wrong.</h1>
-      <p class="lede">An assistant can understand a request and still leave the task unfinished. I build models and evaluation tools that tell those two cases apart. My research also tests what video-language models actually see. I hold a Ph.D. in Computer Science from Georgia State University.</p>
-      <div class="actions"><a class="primary" href="#projects">View selected work</a><a href="/assets/resumes/applied-scientist-llm.pdf">Applied scientist résumé (PDF)</a></div>
+      <p class="lede">I fine-tune models for multi-turn conversations, build evaluation tools that explain why assistants fail, and develop tools to deploy GPU-backed models. My research covers video-language evaluation, neural decoding, and event cameras. I hold a Ph.D. in Computer Science from Georgia State University.</p>
+      <div class="actions"><a class="primary" href="#experience">View experience</a><a href="#projects">Selected work</a><a href="/assets/resumes/applied-scientist-llm.pdf">Applied scientist résumé (PDF)</a></div>
+    </section>
+    <section class="section timeline" id="experience" aria-labelledby="experience-title">
+      <header class="section-head"><div><h2 id="experience-title">Work &amp; research experience</h2></div></header>
+      <article class="role-lead">
+        <div class="role-heading"><div><p class="feature-tag">Capital One</p><h3>Applied Scientist</h3></div><p class="date">Jun 2025–Present</p></div>
+        <p class="role-summary">I work across the lifecycle of conversational AI: training models to route requests, evaluating what happens after routing, and building tools to operate models in production.</p>
+        <dl class="role-streams">
+          <div><dt>Multi-turn intent classification</dt><dd>I fine-tune language models to route requests that depend on earlier turns. Retrieval narrows the candidate intents, and constrained decoding limits predictions to those candidates. I evaluate failures on ambiguous requests, missing context, and overlapping labels.</dd></div>
+          <div><dt>Conversation evaluation &amp; failure analysis</dt><dd>I built review tools that group recurring failures and separate a routing mistake from a task that remained unfinished even though the request was understood. That gives reviewers evidence for what to fix next.</dd></div>
+          <div><dt>Model deployment &amp; operations</dt><dd>I built tools to deploy and monitor GPU-backed language models and route proposed operational changes for human approval.</dd></div>
+        </dl>
+      </article>
+      <div class="timeline-list">
+        <article><span class="date">Jul 2023–Jun 2025</span><div><small>Revelio Communications</small><h3>Founding Engineer</h3><p>Built the screen-to-camera pipeline for embedding data in video and recovering it on a smartphone. Worked across adaptive encoding and the two-stage neural decoder, including cases where the screen and camera were not synchronized.</p><a href="#revelio-work">See the screen-to-camera project</a></div></article>
+        <article><span class="date">Aug 2021–Jun 2025</span><div><small>Georgia State University</small><h3>Graduate Research Assistant</h3><p>Built and evaluated optical communication and sensing prototypes with event cameras. Developed a non-line-of-sight receiver using asynchronous pixel events and investigated how reflective surfaces and modulation affect signal recovery.</p><a href="https://arxiv.org/abs/2503.11226">Read the event-camera paper</a></div></article>
+        <article><span class="date">May–Aug 2022</span><div><small>American Family Insurance</small><h3>Data Science Intern</h3><p>Developed image segmentation for home-inspection imagery and automated multi-GPU training.</p></div></article>
+        <article><span class="date">Aug 2020–Aug 2021</span><div><small>Tata Consultancy Services</small><h3>DevOps Engineer</h3><p>Built retail forecasting dashboards and Jenkins CI/CD pipelines.</p></div></article>
+        <article><span class="date">Dec 2019–Jun 2020</span><div><small>Tata Consultancy Services</small><h3>Research Intern</h3><p>Prototyped AR/VR and computer vision applications for clothing-pattern detection and text-to-avatar interfaces.</p></div></article>
+      </div>
     </section>
     <section class="section projects" id="projects">
       <h2 class="section-label">Selected work</h2>
@@ -52,12 +71,14 @@
         <article class="feature">
           <p class="feature-tag">Video understanding</p><h3>REVEAL: Did the model watch the video?</h3>
           <p>What happens when a familiar action plays backward? In REVEAL, my co-authors and I tested whether video-language models followed the action on screen or described what they expected to happen. Some models described the forward action even when the clip was reversed.</p>
+          <p class="project-result"><strong>Published scope:</strong> Five controlled tests across 12 video-language models, covering failures such as weak cross-frame integration and reliance on language cues.</p>
           <figure class="diagram"><img src="/assets/research/reveal-sequence.svg" alt="A ball falls toward the floor in three forward frames and appears to rise in the reversed sequence." width="480" height="206" loading="lazy"><figcaption>Illustration of the test</figcaption></figure>
           <a class="paper-link" href="https://arxiv.org/abs/2602.11244">Read the REVEAL paper</a>
         </article>
-        <article class="feature">
+        <article class="feature" id="revelio-work">
           <p class="feature-tag">Computer vision</p><h3>Revelio: Sending data from a screen to a phone</h3>
           <p>My co-authors and I built a way to embed information in video without adding a visible code to the picture. A standard smartphone camera captures the screen, and a neural decoder recovers the message even when the screen and camera are not synchronized.</p>
+          <p class="project-result"><strong>Published result:</strong> Zero decoding errors across four videos at distances up to 2 m in direct-view tests.</p>
           <figure class="diagram"><img src="/assets/research/revelio-flow.svg" alt="Video to screen to phone camera to decoded message." width="480" height="206" loading="lazy"><figcaption>Screen-to-camera pipeline</figcaption></figure>
           <a class="paper-link" href="https://arxiv.org/abs/2501.02349">Read the Revelio paper</a>
         </article>
@@ -94,20 +115,8 @@
         </ul>
       </details>
     </section>
-    <section class="section timeline" id="experience">
-      <header class="section-head"><div><span class="section-index">04 / EXPERIENCE</span><h2>Experience</h2></div></header>
-      <div class="timeline-list">
-        <article><span class="date">2025—NOW</span><i></i><div><small>Capital One</small><h3>Applied Scientist</h3><p>I develop models that interpret conversational requests and tools that help reviewers identify why a task was left unfinished.</p></div><b>01</b></article>
-        <article><span class="date">2023—2025</span><i></i><div><small>Revelio Communications</small><h3>Founding Engineer</h3><p>I built screen-to-camera communication software that embeds data in video and recovers it on a phone.</p></div><b>02</b></article>
-        <article><span class="date">2021—2025</span><i></i><div><small>Georgia State University</small><h3>Graduate Research Assistant</h3><p>Ph.D. research across deep learning, event-based vision, and optical communication.</p></div><b>03</b></article>
-        <article><span class="date">MAY—AUG 2022</span><i></i><div><small>American Family Insurance</small><h3>Data Science Intern</h3><p>Developed home-inspection image segmentation and automated multi-GPU training.</p></div><b>04</b></article>
-        <article><span class="date">2020—2021</span><i></i><div><small>Tata Consultancy Services</small><h3>DevOps Engineer</h3><p>Worked on retail forecasting and built CI/CD pipelines.</p></div><b>05</b></article>
-        <article><span class="date">2019—2020</span><i></i><div><small>Tata Consultancy Services</small><h3>Research Intern</h3><p>Built AR/VR and computer-vision prototypes for clothing-pattern recognition, PoseNet surveillance, and text-to-avatar interfaces.</p></div><b>06</b></article>
-      </div>
-    </section>
-
     <section class="section highlights" id="recognition">
-      <header class="section-head"><div><span class="section-index">05 / RECOGNITION</span><h2>Research,<br>recognized.</h2></div></header>
+      <header class="section-head"><div><h2>Recognition &amp; service</h2></div></header>
       <div class="highlight-grid">
         <article><span>AWARDS</span><h3>Best Student Paper<br>IEEE SoutheastCon 2024</h3><p>Also Third Place Best Poster at ACM/IEEE IPSN 2024 and Third Place Oral Presentation at the GSU Graduate Research Conference.</p></article>
         <article><span>LEADERSHIP</span><h3>President<br>IEEE at GSU</h3><p>Led the student chapter from June 2024 through 2025 and organized IdEEEathon 2024 with IEEE Atlanta and Young Professionals.</p></article>
